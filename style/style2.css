@@ -1,0 +1,114 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Section */
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1{
+    margin: 0;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+}
+ nav ul li{
+    display: inline;
+    margin-right: 10px;
+    padding: 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Sectionn */
+#Hero{
+    background-image: url('/images/HeroImage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f48181;
+    text-align: center;
+    padding: 200px 0;
+}
+
+#Hero h2{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #f67b08;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#Features{
+    padding: 50px 0px;
+    background-color: #f0f0f0;
+}
+
+.feature{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #b0afaf;
+    border-radius: 10px;
+}
+
+.feature img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Testimonials Section */
+#Testimonials{
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.testimonial{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Call-to-Action (CTA) */
+#cta{
+    background-color: #f28006;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+#cta .btn{
+    background-color: #fff;
+    color: #f28006;
+}
+
+/* Footer Section */
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
